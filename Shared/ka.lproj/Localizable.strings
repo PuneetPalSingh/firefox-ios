@@ -175,6 +175,9 @@
 /* The label text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.LabelText" = "ახალი ჩანართი გაიხსნა";
 
+/* The label text in the Button Toast for switching to a fresh New Tab. */
+"ContextMenu.ButtonToast.NewTabOpened.LabelText.v114" = "ახალი ჩანართი გაიხსნა";
+
 /* Context menu item for copying an image to the clipboard */
 "ContextMenu.CopyImageButtonTitle" = "სურათის ასლი";
 
@@ -386,7 +389,7 @@
 "fxa.signin.camera-signin" = "შედით კამერის მეშვეობით";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "ჩართეთ კომპიუტერში Firefox და გახსენით გვერდი firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "გაუშვით კომპიუტერში Firefox და გახსენით გვერდი firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "მზადაა წასაკითხად";
@@ -724,9 +727,6 @@
 /* Title for the button that marks a reading list item as unread */
 "Mark as Unread" = "წაუკითხავად მონიშვნა";
 
-/* Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page. */
-"Menu.AddBookmark.AlternateLabel.v99" = "სანიშნის დამატება";
-
 /* Toast displayed to the user after a bookmark has been added. */
 "Menu.AddBookmark.Confirm" = "ჩანიშნულია";
 
@@ -811,9 +811,6 @@
 /* Toast displayed to the user after removing the item to the Shortcuts. */
 "Menu.RemovePin.Confirm2.v99" = "მოცილებულია მალსახმობებიდან";
 
-/* Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. */
-"Menu.RemoveReadingList.AlternateLabel.v99" = "წასაკითხებიდან მოცილება";
-
 /* Toast displayed to confirm to the user that his reading list item was correctly removed. */
 "Menu.RemoveReadingList.Confirm.v99" = "მოცილებულია წასაკითხებიდან";
 
@@ -854,7 +851,7 @@
 "Menu.TrackingProtectionCryptominersBlocked.Title" = "კრიპტოვალუტის გამომმუშავებლები";
 
 /* Description of content trackers. */
-"Menu.TrackingProtectionDescription.ContentTrackers" = "საიტები, ზოგჯერ გარე ბმულებიდან ტვირთავს რეკლამებს, ვიდეოებსა და სხვა ფარული მეთვალყურეების შემცველ მასალას. მათი შეზღუდვით, საიტი კი უფრო სწრაფად ჩაიტვირთება, თუმცა ღილაკებმა, ანგარიშისა და სხვა შესავსებმა ველებმა შეიძლება, აღარ იმუშაოს.";
+"Menu.TrackingProtectionDescription.ContentTrackers" = "საიტები ზოგჯერ გარე ბმულებიდან ტვირთავს რეკლამებს, ვიდეოებსა და სხვა ფარული მეთვალყურეების შემცველ მასალას. მათი შეზღუდვით კი საიტი უფრო სწრაფად ჩაიტვირთება, მაგრამ ღილაკებმა, ანგარიშისა და სხვა შესავსებმა ველებმა შეიძლება აღარ იმუშაოს.";
 
 /* Description of cross-site trackers. */
 "Menu.TrackingProtectionDescription.CrossSiteNew" = "ეს ფუნთუშები თან დაგყვებათ საიტებზე და აგროვებს მონაცემებს, თუ რას აკეთებთ ინტერნეტში. მათ იყენებს გარეშე მხარეები, სარეკლამო და კვლევითი დაწესებულებები.";
@@ -866,7 +863,7 @@
 "Menu.TrackingProtectionDescription.Fingerprinters" = "პარამეტრებით ხდება თქვენი ბრაუზერისა და მოწყობილობის სხვებისგან გამორჩევა. მომხმარებლის ამომცნობები აგროვებს ამ პარამეტრებს თქვენი დახასიათების შესადგენად, რომელსაც იყენებს საიტებზე თვალის სადევნებლად.";
 
 /* Description of social network trackers. */
-"Menu.TrackingProtectionDescription.SocialNetworksNew" = "სოციალური ქსელები ათავსებს მეთვალყურეებს სხვადასხვა საიტებზე, თქვენი დახასიათების უკეთ და სრულყოფილად შესადგენად. მათი შეზღუდვის შედეგად, ამ ქსელების მფლობელ დაწესებულებებს, ნაკლები წვდომა ექნება ინტერნეტში თქვენს მოქმედებებზე.";
+"Menu.TrackingProtectionDescription.SocialNetworksNew" = "სოციალური ქსელები ათავსებს მეთვალყურეებს სხვადასხვა საიტებზე თქვენი დახასიათების უკეთ და სრულყოფილად შესადგენად. მათი შეზღუდვის შედეგად ამ ქსელების მფლობელ დაწესებულებებს ნაკლები წვდომა ექნება ინტერნეტში თქვენს მოქმედებებზე.";
 
 /* The title that shows the number of fingerprinting scripts blocked */
 "Menu.TrackingProtectionFingerprintersBlocked.Title" = "მომხმარებლის ამომცნობები";
@@ -911,7 +908,7 @@
 "Oops! Firefox crashed" = "ჰმ! Firefox უეცრად გაითიშა";
 
 /* See http://mzl.la/1LXbDOL */
-"Open articles in Reader View by tapping the book icon when it appears in the title bar." = "სტატიების, კითხვის რეჟიმში გასახსნელად, შეეხეთ წიგნის ნიშანს, როცა მისამართების ველში გამოჩნდება.";
+"Open articles in Reader View by tapping the book icon when it appears in the title bar." = "სტატიების კითხვის რეჟიმში გასახსნელად შეეხეთ წიგნის ნიშანს, როცა მისამართების ველში გამოჩნდება.";
 
 /* See http://mzl.la/1G7uHo7 */
 "Open Settings" = "პარამეტრების გახსნა";
@@ -1007,7 +1004,7 @@
 "Sans-serif" = "უნაჭდევო";
 
 /* See http://mzl.la/1LXbDOL */
-"Save pages to your Reading List by tapping the book plus icon in the Reader View controls." = "გვერდების შენახვა მომავალში წასაკითხად, შეგიძლიათ კითხვის რეჟიმის სამართავ არეში, წიგნის ნიშანზე შეხებით.";
+"Save pages to your Reading List by tapping the book plus icon in the Reader View controls." = "გვერდების შენახვა მომავალში წასაკითხად შეგიძლიათ კითხვის რეჟიმის სამართავ არეში წიგნის ნიშანზე შეხებით.";
 
 /* OK button to dismiss the error prompt. */
 "ScanQRCode.Error.OK.Button" = "კარგი";
@@ -1291,9 +1288,6 @@
 /* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off */
 "Settings.Home.Option.Shortcuts" = "მალსახმობები";
 
-/* In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off */
-"Settings.Home.Option.SponsoredPocket.v103" = "დაფინანსებული ამბები";
-
 /* In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity. */
 "Settings.Home.Option.StartAtHome.AfterFourHours" = "საწყისი გვერდი ოთხი საათის უქმობის შემდეგ";
 
@@ -1331,7 +1325,7 @@
 "Settings.Home.Option.Wallpaper.Accessibility.SunriseWallpaper.v99" = "Firefox-ფონი, რიჟრაჟის მოხატულობა.";
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string of the toggle for turning wallpaper cycling shortcut on or off on the homepage. */
-"Settings.Home.Option.Wallpaper.Accessibility.ToggleButton" = "საწყისი გვერდის ფონის წრიულად ცვლა";
+"Settings.Home.Option.Wallpaper.Accessibility.ToggleButton" = "საწყისი გვერდის ფონების წრიულად ცვლა";
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the twilight hills firefox wallpaper. */
 "Settings.Home.Option.Wallpaper.Accessibility.TwilightHillsWallpaper.v100" = "Firefox-ფონი, შებინდებული მაღლობების მოხატულობა.";
@@ -1424,7 +1418,7 @@
 "Settings.NewTab.TopSectionName" = "ჩვენება";
 
 /* Footer at the bottom of the New Tab screen after entering New Tab in settings */
-"Settings.NewTab.TopSectionNameFooter" = "აირჩიეთ რისი ხილვა გსურთ ახალი ჩანართის გახსნისას";
+"Settings.NewTab.TopSectionNameFooter" = "აირჩიეთ, რისი ხილვა გსურთ ახალი ჩანართის გახსნისას";
 
 /* Label for the block images toggle displayed in the settings menu. Enabling this toggle will hide images on any webpage the user visits. */
 "Settings.NoImageModeBlockImages.Label.v99" = "სურათების შეზღუდვა";
@@ -1469,7 +1463,7 @@
 "Settings.SendUsage.Message" = "Mozilla აღრიცხავს მხოლოდ იმ მონაცემებს, რომლებიც საჭიროა Firefox-ის გასაუმჯობესებლად.";
 
 /* The title for the setting to send usage data. */
-"Settings.SendUsage.Title" = "მონაცემების აღრიცხვა";
+"Settings.SendUsage.Title" = "მონაცემთა აღრიცხვა";
 
 /* Description displayed under the ”Show Link Previews” option */
 "Settings.ShowLinkPreviews.Status" = "ბმულზე ხანგრძლივი დაჭერისას";
@@ -1556,10 +1550,10 @@
 "Settings.TrackingProtection.ProtectionLevel.Footer.Lock" = "თუ საიტი არ მუშაობს სათანადოდ, შეეხეთ საკეტის ნიშანს მისამართების ველში თვალთვალისგან გაძლიერებული დაცვის გამოსართავად ამ გვერდზე.";
 
 /* Description for standard level tracker protection */
-"Settings.TrackingProtection.ProtectionLevelStandard.Description" = "საიტის სათანადო მუშაობისთვის, ზოგიერთი მეთვალყურე ნებადართულია.";
+"Settings.TrackingProtection.ProtectionLevelStandard.Description" = "საიტის სათანადო მუშაობისთვის ზოგიერთი მეთვალყურე ნებადართულია.";
 
 /* Description for strict level tracker protection */
-"Settings.TrackingProtection.ProtectionLevelStrict.Description" = "შეიზღუდება მეტი მეთვალყურე, რეკლამა, ამომხტომი. გვერდები სწრაფად ჩაიტვირთება, თუმცა შესაძლოა, გაუმართავად იმუშაოს.";
+"Settings.TrackingProtection.ProtectionLevelStrict.Description" = "შეიზღუდება მეტი მეთვალყურე, რეკლამა, ამომხტომი. გვერდები სწრაფად ჩაიტვირთება, მაგრამ შესაძლოა, გაუმართავად იმუშაოს.";
 
 /* Title for tracking protection options section where level can be selected. */
 "Settings.TrackingProtection.ProtectionLevelTitle" = "დაცვის დონე";
@@ -1712,7 +1706,7 @@
 "The page could not be displayed in Reader View." = "გვერდის კითხვის რეჟიმში ჩვენება შეუძლებელია.";
 
 /* Error message in the remote tabs panel */
-"There was a problem accessing tabs from your other devices. Try again in a few moments." = "სხვა მოწყობილობების ჩანართებთან წვდომისას წარმოიქმნა ხარვეზი. სცადეთ ხელახლა, ოდნავ მოგვიანებით.";
+"There was a problem accessing tabs from your other devices. Try again in a few moments." = "სხვა მოწყობილობების ჩანართებთან წვდომისას წარმოიქმნა ხარვეზი. სცადეთ ხელახლა ცოტა ხანში.";
 
 /* Error displayed when reader mode cannot be enabled */
 "There was an error converting the page" = "გვერდის გარდაქმნისას წარმოიშვა შეცდომა";
